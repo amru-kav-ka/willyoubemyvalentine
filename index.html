@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  href="favicon.png">
+    <title>Valentine Banja</title>
+    <link rel="stylesheet" href="styles.css">
+    <audio id="celebrationSound" src="celebration.mp3"></audio>
+</head>
+<body>
+    <div class="container" id="landing">
+        <img src="first.gif" alt="Valentine GIF" class="gif" id="mainGif">
+        <h1 class="question" id="mainQuestion">Will you be my valentine?</h1>
+        <div class="buttons">
+            <button class="btn yes-btn" id="yesBtn">Yes</button>
+            <button class="btn no-btn" id="noBtn">No</button>
+        </div>
+    </div>
+    <div class="container" id="acceptance" style="display: none;">
+        <canvas id="fireworksCanvas"></canvas>
+        <img src="second.gif" alt="Celebration GIF" class="gif">
+        <h1 class="question">I knew you would say yes, my cutu.</h1>
+        <div id="countdown"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
